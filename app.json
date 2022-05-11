@@ -1,0 +1,18 @@
+{
+    "name": "pronto",
+    "stack": "container",
+    "env": {
+        "API_ID": {
+            "description": "Get this value from my.telegram.org.",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "Get this value from my.telegram.org.",
+            "required": true
+        },
+        "SESSION_STRING": {
+            "description": "Generate this from gen_session_string.py from file in repo root",
+            "required": true
+          }
+    }
+}
